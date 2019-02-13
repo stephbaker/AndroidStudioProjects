@@ -1,3 +1,5 @@
+package com.example.stephaniebaker_macpro.mcalcpro;
+
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
