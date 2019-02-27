@@ -48,6 +48,11 @@ public class Cipher {
             int shift = Integer.parseInt(pad.substring(i, i + 1));
 
             int newPosition = (position - shift) % ALPHABET.length();
+            if (newPosition < 0)
+            {
+                newPosition = newPosition + 27;    
+            }
+            
             result = result + ALPHABET.substring(newPosition, newPosition + 1);
         }
         return result;
