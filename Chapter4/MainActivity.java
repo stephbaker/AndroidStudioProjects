@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
         catch (Exception e)
         {
             //display e.getMessage()
-            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+            Toast label = Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+            label.show();
         }
     }
 
@@ -54,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
         catch (Exception e)
         {
             //display e.getMessage()
-            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+            Toast label = Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+            label.show();
         }
 
     }
@@ -74,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
         catch (Exception e)
         {
             //display e.getMessage()
-            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+            Toast label = Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+            label.show();
         }
     }
 
